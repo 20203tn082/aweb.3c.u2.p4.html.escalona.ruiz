@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica HTML 4</title>
+    <style>
+        body{
+            background-color:#EFF3FB ;
+        }
+        header{
+            text-align: center;
+        }
+        .menu{
+            width: 20%; 
+            float: left;
+            background-color: #8BAFE4;
+        }
+        .menu ul{
+            list-style: none;
+        }
+        .menu ul li{
+            padding: 5px;
+        }
+        .menu ul a:link,
+        .menu ul a:visited,
+        .menu ul a:active{
+            text-decoration: none;
+            color: #000;
+        }
+        .menu ul li:hover{
+            background-color: #A9B9D4;
+            font-weight: bold;
+        }
+        #content{
+            width: 80%;
+            float: left;
+        }
+        #content article{
+            margin: 10px;
+        }
+        article h1{
+            color:#EF5D60 ;
+            border-bottom: #000 solid 1px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Práctica HTML5</h1>
+        </header>
+        <nav class="menu" >
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                    </li>
+                
+                <li >
+                    <a href="#">Tipo agua</a>
+                </li>
+                <li>
+                    <a href="#">Tipo planta</a>
+
+                </li>
+                <li >
+                    <a href="#"> Tipo fuego </a>
+
+                </li>
+            </ul>
+        </nav>
+        <section id="content" style="">
+            <article>
+                <h1>Artículo 1</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia ex possimus voluptates sed itaque sunt in qui facere quaerat tempore cupiditate dolorem cum rerum, eveniet nam fugiat animi quae! Repudiandae.</p>
+            </article>
+            <article>
+                <h1>Artículo 2</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum commodi blanditiis veniam consequatur minus eligendi non doloribus maiores animi reiciendis, aliquid culpa beatae officiis. Magni cum culpa reiciendis voluptatibus ex.</p>
+            </article>
+        </section>
+        
+        <footer>Pie de página</footer>
+    </main>
+</body>
+</html>
